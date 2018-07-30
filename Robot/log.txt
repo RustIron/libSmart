@@ -1,0 +1,56 @@
+Connected to 1RA-Terminal 'kawasaki' (192.168.0.110)
+
+login: as
+>
+>status
+Robot status:
+REPEAT mode
+
+Environment: 
+ Monitor speed(%)  =       10.0
+ Program speed(%) ALWAYS =      100.0     100.0
+ ALWAYS Accu.[mm] =        1.0
+
+Stepper status:   Program is not running.
+Execution cycles
+  Completed cycles:       1 
+  Remaining cycles:       0 
+Program name              Priority   Step No.
+ movejt                     0    8         JMOVE #PPOINT(j1,j2,j3,j4,j5,j6)
+>
+>status
+Robot status:
+REPEAT mode
+
+Environment: 
+ Monitor speed(%)  =       10.0
+ Program speed(%) ALWAYS =      100.0     100.0
+ ALWAYS Accu.[mm] =        1.0
+
+Stepper status:   Program is not running.
+Execution cycles
+  Completed cycles:       1 
+  Remaining cycles:       0 
+Program name              Priority   Step No.
+ movejt                     0    8         JMOVE #PPOINT(j1,j2,j3,j4,j5,j6)
+>
+>execute movejt
+> 
+enter joint angle:0,0,0,0,0,0
+> Program completed.No = 1
+status
+Robot status:
+REPEAT mode
+
+Environment: 
+ Monitor speed(%)  =       10.0
+ Program speed(%) ALWAYS =      100.0     100.0
+ ALWAYS Accu.[mm] =        1.0
+
+Stepper status:   Program is not running.
+Execution cycles
+  Completed cycles:       1 
+  Remaining cycles:       0 
+Program name              Priority   Step No.
+ movejt                     0    8         JMOVE #PPOINT(j1,j2,j3,j4,j5,j6)
+>
